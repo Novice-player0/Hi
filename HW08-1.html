@@ -1,0 +1,17 @@
+<! DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>HW08</title>
+</head>
+<body>
+    <form oninput="BMI.value=parseInt(a.value)/[(parseInt(b.value)/100)*parseInt(b.value)/100]">
+        <label for="weight">體重(公斤):</label>
+        <input type="number"id="a"name="weight"value=""/><br>
+        <label for="height">身高(公分):</label>
+        <input type="number"id="b"name="height"value=""/><br>
+        <label for="BMI">BMI=</label>
+        <output name="BMI"for="a b"></output>
+    </form>
+</body>
+</html>
